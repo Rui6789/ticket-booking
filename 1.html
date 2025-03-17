@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Booking Platform</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://wallpapercave.com/wp/wp4923986.jpg') no-repeat center center/cover;
+            color: white;
+        }
+        .header {
+            background: rgba(51, 51, 51, 0.8);
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 26px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        .container {
+            width: 90%;
+            max-width: 900px;
+            margin: 30px auto;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.3);
+            text-align: center;
+            color: black;
+        }
+        .event {
+            padding: 15px;
+            border-bottom: 2px dashed #ddd;
+            transition: transform 0.3s ease-in-out;
+        }
+        .event:last-child {
+            border-bottom: none;
+        }
+        .event:hover {
+            transform: scale(1.05);
+        }
+        .event h3 {
+            font-size: 22px;
+            color: #ff4d6d;
+        }
+        .event p {
+            font-size: 16px;
+            color: #444;
+        }
+        .event button {
+            background: #ff4d6d;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            cursor: pointer;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: background 0.3s ease;
+        }
+        .event button:hover {
+            background: #d43f5f;
+        }
+        .navigation {
+            text-align: center;
+            margin: 20px;
+        }
+        .navigation a {
+            text-decoration: none;
+            margin: 10px;
+            padding: 10px 15px;
+            background: #ff4d6d;
+            color: white;
+            border-radius: 8px;
+            font-size: 18px;
+            transition: background 0.3s ease;
+        }
+        .navigation a:hover {
+            background: #d43f5f;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">🎟️ Ticket Booking Platform 🎟️</div>
+    <div class="navigation">
+        <a href="#">Home</a>
+        <a href="#">Events</a>
+        <a href="#">My Tickets</a>
+        <a href="#">Profile</a>
+        <a href="#">Support</a>
+    </div>
+    <div class="container">
+        <h2>Upcoming Events in Ontario, Canada</h2>
+        <div class="event">
+            <h3>Anime Music Festival</h3>
+            <p>Date: April 15, 2025</p>
+            <p>Location: Scotiabank Arena, Toronto</p>
+            <p>Price: $80 CAD</p>
+            <button>Book Now</button>
+        </div>
+        <div class="event">
+            <h3>J-Pop Concert: Hatsune Miku</h3>
+            <p>Date: May 5, 2025</p>
+            <p>Location: Rogers Centre, Toronto</p>
+            <p>Price: $120 CAD</p>
+            <button>Book Now</button>
+        </div>
+        <div class="event">
+            <h3>Cosplay & Gaming Expo</h3>
+            <p>Date: June 20, 2025</p>
+            <p>Location: Metro Toronto Convention Centre</p>
+            <p>Price: $55 CAD</p>
+            <button>Book Now</button>
+        </div>
+    </div>
+</body>
+</html>
